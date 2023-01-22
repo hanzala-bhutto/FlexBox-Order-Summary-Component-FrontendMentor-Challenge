@@ -1,0 +1,102 @@
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-card{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.order-card h1{
+    margin: 10px 40px 10px 40px;
+    font-weight:bold;
+} 
+
+.order-card p{
+    margin: 10px 40px 10px 40px;
+    font-size: 16px;
+    color:hsl(224, 23%, 55%);
+}
+
+.order-card .payment-button,.order-card .cancel-order,.order-card .plan{
+    margin: 10px 35px 10px 35px;
+} 
+
+.card-top img{
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.plan{
+    width: 80%;
+    border-radius: 10px;
+    padding:10px 0px 10px 0px;
+    background-color:  hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.plan p, .plan h2{
+    margin: 0;
+    font-size: 16px;
+}
+
+.plan-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.change-plans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.change-plans p{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+
+.payment-button{
+    width: 80%;
+    border-radius: 10px;
+    padding:10px 0px 10px 0px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 2px 14px 8px 3px hsl(225, 100%, 94%);
+}
+
+.payment-text{
+    margin: auto;
+    color: white;
+    vertical-align: middle;
+}
+
+.payment-button:hover{
+    background-color:hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+.change-plans p:hover{
+    cursor: pointer;
+    color:hsl(224, 23%, 55%);
+}
+
+.cancel-order p:hover{
+    cursor: pointer;
+    color:black;
+}
