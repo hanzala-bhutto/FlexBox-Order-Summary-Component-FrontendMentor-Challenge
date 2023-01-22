@@ -100,3 +100,13 @@ body{
     cursor: pointer;
     color:black;
 }
+
+@media only screen and (max-width: 400px){
+    .order-card{
+        width: 300px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+}
